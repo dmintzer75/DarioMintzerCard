@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79BBE17B27D4F48600EE04C2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BBE17A27D4F48600EE04C2 /* InfoView.swift */; };
 		79EA365927D36B12006562BF /* DarioMintzerCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA365827D36B12006562BF /* DarioMintzerCardApp.swift */; };
 		79EA365B27D36B12006562BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA365A27D36B12006562BF /* ContentView.swift */; };
 		79EA365D27D36B14006562BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EA365C27D36B14006562BF /* Assets.xcassets */; };
 		79EA366027D36B14006562BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EA365F27D36B14006562BF /* Preview Assets.xcassets */; };
+		79EA366827D36F56006562BF /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79EA366727D36F56006562BF /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79BBE17A27D4F48600EE04C2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		79EA365527D36B12006562BF /* DarioMintzerCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarioMintzerCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79EA365827D36B12006562BF /* DarioMintzerCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarioMintzerCardApp.swift; sourceTree = "<group>"; };
 		79EA365A27D36B12006562BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79EA365C27D36B14006562BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79EA365F27D36B14006562BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79EA366727D36F56006562BF /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		79EA366927D3723E006562BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		79EA365727D36B12006562BF /* DarioMintzerCard */ = {
 			isa = PBXGroup;
 			children = (
+				79EA366927D3723E006562BF /* Info.plist */,
+				79EA366627D36F48006562BF /* fonts */,
 				79EA365827D36B12006562BF /* DarioMintzerCardApp.swift */,
 				79EA365A27D36B12006562BF /* ContentView.swift */,
+				79BBE17A27D4F48600EE04C2 /* InfoView.swift */,
 				79EA365C27D36B14006562BF /* Assets.xcassets */,
 				79EA365E27D36B14006562BF /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				79EA365F27D36B14006562BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79EA366627D36F48006562BF /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				79EA366727D36F56006562BF /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79EA366827D36F56006562BF /* Pacifico-Regular.ttf in Resources */,
 				79EA366027D36B14006562BF /* Preview Assets.xcassets in Resources */,
 				79EA365D27D36B14006562BF /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BBE17B27D4F48600EE04C2 /* InfoView.swift in Sources */,
 				79EA365B27D36B12006562BF /* ContentView.swift in Sources */,
 				79EA365927D36B12006562BF /* DarioMintzerCardApp.swift in Sources */,
 			);
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = 52G4MQR5UN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarioMintzerCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = 52G4MQR5UN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DarioMintzerCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
